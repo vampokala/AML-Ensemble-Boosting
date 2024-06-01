@@ -10211,87 +10211,6 @@ models_test_comp_df
 
 
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Decision Tree with Original Data</th>
-      <th>Decision Tree with Oversampled Data</th>
-      <th>Decision Tree with Undersampled Data</th>
-      <th>Gradient boosting trained with Original data</th>
-      <th>Gradient boosting trained with Oversampled data</th>
-      <th>AdaBoost trained with original data</th>
-      <th>AdaBoost trained with oversampled data</th>
-      <th>XGBoost trained with Oversampled data</th>
-      <th>XGBoost trained with Undersampled data</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>Accuracy</th>
-      <td>0.903</td>
-      <td>0.903</td>
-      <td>0.898</td>
-      <td>0.963</td>
-      <td>0.931</td>
-      <td>0.967</td>
-      <td>0.968</td>
-      <td>0.632</td>
-      <td>0.931</td>
-    </tr>
-    <tr>
-      <th>Recall</th>
-      <td>0.874</td>
-      <td>0.874</td>
-      <td>0.889</td>
-      <td>0.830</td>
-      <td>0.932</td>
-      <td>0.846</td>
-      <td>0.901</td>
-      <td>0.996</td>
-      <td>0.941</td>
-    </tr>
-    <tr>
-      <th>Precision</th>
-      <td>0.656</td>
-      <td>0.656</td>
-      <td>0.639</td>
-      <td>0.942</td>
-      <td>0.697</td>
-      <td>0.951</td>
-      <td>0.905</td>
-      <td>0.311</td>
-      <td>0.726</td>
-    </tr>
-    <tr>
-      <th>F1</th>
-      <td>0.749</td>
-      <td>0.749</td>
-      <td>0.744</td>
-      <td>0.882</td>
-      <td>0.798</td>
-      <td>0.895</td>
-      <td>0.903</td>
-      <td>0.474</td>
-      <td>0.819</td>
-    </tr>
-  </tbody>
-</table>
-</div>
 
 
 
@@ -10308,7 +10227,12 @@ plt.yticks(range(len(indices)), [feature_names[i] for i in indices])
 plt.xlabel("Relative Importance")
 plt.show()
 ```
-
+|Decision Tree with Original Data|Decision Tree with Oversampled Data|Decision Tree with Undersampled Data|Gradient boosting trained with Original data|Gradient boosting trained with Oversampled data|AdaBoost trained with original data|AdaBoost trained with oversampled data|XGBoost trained with Oversampled data|XGBoost trained with Undersampled data|
+|--- |--- |--- |--- |--- |--- |--- |--- |--- |
+|0.903|0.903|0.898|0.963|0.931|0.967|0.968|0.632|0.931|
+|0.874|0.874|0.889|0.830|0.932|0.846|0.901|0.996|0.941|
+|0.656|0.656|0.639|0.942|0.697|0.951|0.905|0.311|0.726|
+|0.749|0.749|0.744|0.882|0.798|0.895|0.903|0.474|0.819|
 
     
 ![png](images/output_211_0.png)
