@@ -1,4 +1,4 @@
-# Advanced Machine Learning Model-Bank Churn Example
+# Advanced Machine Learning Model-Credit Card Users Churn Prediction
 ML Model building with Boosting, Ensemble algorithms
 
 This can be run using Jupyter Notebook, VS Code or Google Colab. 
